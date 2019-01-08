@@ -98,6 +98,7 @@ void print_help()
 {
     fprintf(stdout, "\
 Usage:  gsprint [options] filename\n\
+ -help                  This info\n\
  -list                  List all available printers\n\
  -mono                  Render in monochrome as 1bit/pixel\n\
  -grey or -gray         Render in greyscale as 8bits/pixel\n\
@@ -106,7 +107,7 @@ Usage:  gsprint [options] filename\n\
  -printer \042name\042        Print to the specified printer\n\
  -port \042name\042           Print to the specified printer port\n\
  -ghostscript \042name\042    Path and filename of command line Ghostscript\n\
- -option \042name\042    Option to pass to ghostscript\n\
+ -option \042name\042         Option to pass to ghostscript\n\
  -config \042name\042         Read options from this file instead of gsprint.cfg\n\
  -odd                   Print only odd pages\n\
  -even                  Print only even pages\n\
